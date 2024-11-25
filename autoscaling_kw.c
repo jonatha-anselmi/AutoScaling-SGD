@@ -85,13 +85,12 @@ int main(int argc, char **argv)
 	gamma=0.1;
 
 
-	/* "nice parameters for N=20,50" */
+	/* "parameters for N=20,50" */
 	w_rej=1e3;
 	w[1]=1;  // idle-on
 	w[2]=1.0;  // busy
 	w[3]=5.0;  // initializing
 	w[4]=500.0; // blocked jobs
-//	w[4]=250.0; // blocked jobs, also ok but better 500.
 	beta=0.1;
 	gamma=0.01;
 
