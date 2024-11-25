@@ -11,7 +11,7 @@ title: "AutoScaling-SGD"
 This project provides the code to support the numerical results published in [1]. Specifically:
 
 - *autoscaling_kw.c* :
-This file implements the stochastic gradient descent algorithm proposed in Section III of [1]. 
+This file implements the proposed stochastic gradient descent algorithm for autoscaling; the full details are in Section III of [1]. 
 
 - *autoscaling_mc.c* :
 This file simulates the Markov chain that models dynamics induced by the auto-scaling algorithm introduced in Section II of [1] for a given $\theta$.
@@ -28,6 +28,8 @@ This script plots the cost function for increasing values of $\theta$ as in *cos
 - *kw_plot_nonstationary.m* :
 This script plots the sequence of $\theta$'s obtained by the proposed stochastic optimization algorithm when theta is updated every 100 or 1000 state transitions, thus without waiting for the underlying Markov chain "to reach stationarity". This alternative approach is for comparison purposes and provides the pictures *non_stationary1.eps* and *non_stationary2.eps*.
 
+- *run.sh* :
+Bash script to generate all the data.
 
 ## Usage
 
