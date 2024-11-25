@@ -35,5 +35,5 @@ do
 done
 
 # Generate cost function
-#./cost_function_gen.sh
+./cost_function_gen.sh
 
