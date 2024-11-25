@@ -41,4 +41,4 @@ On Linux, to reproduce the simulation results in [1]:
 
 ## References
 
-[1] J. Anselmi, B. Gaujal, L.S. Rebuffi "Non-Stationary Gradient Descent for Optimal Auto-Scaling in Serverless Platforms"
+[1] J. Anselmi, B. Gaujal, L.S. Rebuffi "Non-Stationary Gradient Descent for Optimal Auto-Scaling in Serverless Platforms", https://polaris.imag.fr/jonatha.anselmi/SGD_autoscaling.pdf
